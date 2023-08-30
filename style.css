@@ -30,22 +30,32 @@
 }
 
 .container{
-    width: 85%;
+    width: 80%;
     padding: 10px;
     position: absolute;
     left: 20%;
 }
 
-.home{
+#home{
     height: 100vh;
-    padding-top: 5vh;
 }
 
-.toDo{
+#toDo{
     height: 100vh;
-    padding-top: 5vh;
 }
 
-.toDo img{
+#toDo img{
     height: 30px;
+}
+
+#highlight{
+    height: 100vh;
+}
+
+#calendar{
+    height: 100vh;
+}
+
+#modify{
+    height: 100vh;
 }
