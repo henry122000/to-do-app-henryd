@@ -45,6 +45,11 @@
     color: #E9573A;
 }
 
+.header nav ul li .current{
+    background-color: #fff;
+    color: #E9573A;
+}
+
 .container{
     width: 80%;
     padding: 10px;
