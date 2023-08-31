@@ -12,11 +12,12 @@
     position: fixed;
     top: 0;
     left: 0;
-    padding: 50px;
+    padding: 5%;
 }
 
 .header .logo{
-    width: 20vh;
+    width: 100%;
+    max-width: 15vh;
     margin-bottom: 10vh;
 
 }
@@ -27,12 +28,21 @@
 }
 
 .header nav ul li{
-    margin-bottom: 30px;
+    margin-bottom: 35px;
 }
 
 .header nav ul li a{
     color: #fff;
     text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.header nav ul li a:hover{
+    transition: 0.5s;
+    background-color: #fff;
+    color: #E9573A;
 }
 
 .container{
@@ -44,6 +54,15 @@
 
 #home{
     height: 100vh;
+    padding: 30vh 20vh;
+}
+
+#home a{
+    text-decoration: none;
+    color:#E9573A;
+    cursor: pointer;
+    font-size: 40px;
+    font-weight: 600;
 }
 
 #toDo{
