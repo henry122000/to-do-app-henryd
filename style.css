@@ -19,7 +19,6 @@
     width: 100%;
     max-width: 15vh;
     margin-bottom: 10vh;
-
 }
 
 .header nav ul{
@@ -37,6 +36,11 @@
     font-weight: bold;
     font-size: 20px;
     padding: 10px;
+}
+
+.header nav ul li a i{
+    font-size: 20px;
+    padding-right: 10px;
 }
 
 .header nav ul li a:hover{
@@ -72,6 +76,7 @@
 
 #toDo{
     height: 100vh;
+    padding: 10vh;
 }
 
 #toDo img{
