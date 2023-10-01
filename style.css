@@ -4,8 +4,8 @@
     font-family: 'Poppons', sans-serif;
     box-sizing: border-box;
 }
-
-.header{
+/* ---navigate bar--- */
+header{
     width: 20%;
     height: 100vh;
     background-color: #E9573A;
@@ -14,53 +14,47 @@
     left: 0;
     padding: 5%;
 }
-
-.header .logo{
+header .logo{
     width: 100%;
     max-width: 15vh;
     margin-bottom: 10vh;
 }
-
-.header nav ul{
+header nav ul{
         list-style: none;
         position: relative;
 }
-
-.header nav ul li{
+header nav ul li{
     margin-bottom: 35px;
 }
-
-.header nav ul li a{
+header nav ul li a{
     color: #fff;
     text-decoration: none;
     font-weight: bold;
     font-size: 20px;
     padding: 10px;
 }
-
-.header nav ul li a i{
+header nav ul li a i{
     font-size: 20px;
     padding-right: 10px;
 }
-
-.header nav ul li a:hover{
+header nav ul li a:hover{
     transition: 0.5s;
     background-color: #fff;
     color: #E9573A;
 }
-
-.header nav ul li .current{
+header nav ul li .current{
     background-color: #fff;
     color: #E9573A;
 }
-
-.container{
+/* ---content--- */
+main{
     width: 80%;
+    height: 100vh;
     padding: 10px;
     position: absolute;
     left: 20%;
 }
-
+/* ---hoame page--- */
 #home{
     height: 100vh;
     padding: 30vh 20vh;
@@ -73,24 +67,23 @@
     font-weight: 600;
     margin-top: 50px;
 }
-
+/* ---my task page--- */
 #toDo{
     height: 100vh;
     padding: 10vh;
 }
-
 #toDo img{
     height: 30px;
 }
-
+/* ---hight light page--- */
 #highlight{
     height: 100vh;
 }
-
+/* ---calender page--- */
 #calendar{
     height: 100vh;
 }
-
+/* ---modify page--- */
 #modify{
     height: 100vh;
 }
