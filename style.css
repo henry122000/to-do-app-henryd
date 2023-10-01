@@ -42,7 +42,7 @@ header nav ul li a:hover{
     background-color: #fff;
     color: #E9573A;
 }
-header nav ul li .current{
+.current{
     background-color: #fff;
     color: #E9573A;
 }
