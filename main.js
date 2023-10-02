@@ -1,5 +1,5 @@
 //active section
-let sections = document.querySelector('section');
+let sections = document.querySelectorAll('section');
 let nav = document.querySelectorAll('header nav a');
 
 window.onscroll = () => {

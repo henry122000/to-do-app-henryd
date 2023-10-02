@@ -16,8 +16,13 @@ header{
 }
 header .logo{
     width: 100%;
-    max-width: 15vh;
-    margin-bottom: 10vh;
+    margin: 0 40px 100px;
+    font-family: 'Black Ops One', cursive;
+    font-family: 'Croissant One', cursive;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Satisfy', cursive;
+    color: white;
+    font-size: 80px;
 }
 header nav ul{
         list-style: none;
