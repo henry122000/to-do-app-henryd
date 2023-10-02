@@ -64,13 +64,21 @@ main{
     height: 100vh;
     padding: 30vh 20vh;
 }
-
 #home a{
     color:#E9573A;
     cursor: pointer;
     font-size: 40px;
     font-weight: 600;
     margin-top: 50px;
+}
+.triangle{
+    width: 0px;
+    height: 0px;
+    border-style: solid;
+    border-width: 0 204px 207px 100vh;
+    /* right  height  left */
+    border-color: transparent transparent #E9573A transparent;
+    transform: rotate(270deg);
 }
 /* ---my task page--- */
 #toDo{
