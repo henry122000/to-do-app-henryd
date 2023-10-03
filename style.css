@@ -98,18 +98,8 @@ main{
 #toDo img{
     height: 30px;
 }
-/* ---hight light page--- */
-#highlight{
-    height: 100vh;
-    width: 100%;
-}
 /* ---calender page--- */
 #calendar{
-    height: 100vh;
-    width: 100%;
-}
-/* ---modify page--- */
-#modify{
     height: 100vh;
     width: 100%;
 }
