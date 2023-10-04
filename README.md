@@ -1,8 +1,12 @@
 # to-do-app-henryd
 
-HENRY DAO
+Author: HENRY DAO
+
+Name: To Do list App
 
 Pupose: make list of items, increase users' task management and organization
+
+Pages: Home, My tasks, Calender
 
 Function:
 - Make lists
