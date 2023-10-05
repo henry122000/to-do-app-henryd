@@ -104,6 +104,18 @@ main{
 .toDoContent h1{
     font-size: 30px;
 }
+.highlight-items,
+.tasks-items{
+    border: 1px solid black;
+    border-radius: 13px;
+    background-color: #FFFFF0;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(97, 96, 96);
+    margin-top: 5px;
+}
+.tasks{
+    padding-top: 30px;
+}
 /* ---calender page--- */
 #calendar{
     height: 100vh;
