@@ -57,8 +57,7 @@ header nav ul li a:hover{
 main{
     width: 80%;
     height: 100vh;
-    padding: 10px;
-    position: absolute;
+    position: relative;
     left: 20%;
 }
 /* ---hoame page--- */
@@ -76,7 +75,7 @@ main{
     background-image: url(pics/backgroundHome.jpg);
     background-position: center;
     background-size: cover; 
-    opacity: 0.5;
+    opacity: 0.6;
     top: 0px;
     right: 0px;
     bottom: 0px;
@@ -94,6 +93,7 @@ main{
 #toDo{
     height: 100vh;
     width: 100%;
+    position: relative;
 }
 #toDo img{
     height: 30px;
@@ -102,25 +102,22 @@ main{
 #calendar{
     height: 100vh;
     width: 100%;
+    position: relative;
 }
-/* #toDo::before,
-#highlight::before,
-#calendar::before,
-#modify::before{
+#toDo::before,
+#calendar::before{
     content: "";
     position: absolute;
-    background-color: #E9573A; 
-    opacity: 0.5;
-    background-size: cover; 
-    background-position: center;
-    top: auto;
-    right: auto;
-    bottom: auto;
-    left: auto;
+    background-color: #B3431C; 
+    opacity: 0.6;
+    top: 0px;
+    right: 0px;
+    bottom: 0px;
+    left: 0px;
 }
 .toDoContent,
 .highLightContent,
 .calendarContent,
 .modifyContent{
     position: relative;
-} */
+}
