@@ -99,7 +99,10 @@ main{
     height: 30px;
 }
 .toDoContent{
-    padding: ;
+    padding: 100px 200px;
+}
+.toDoContent h1{
+    font-size: 30px;
 }
 /* ---calender page--- */
 #calendar{
